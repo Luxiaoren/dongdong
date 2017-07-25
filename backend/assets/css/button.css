@@ -1,0 +1,87 @@
+* {
+        margin:0;
+        padding:0;
+    }
+    body {
+        font:14px Verdana, Arial, Geneva, sans-serif;
+        color:#404040;
+        background:#fff;
+    }
+    img {
+        border-style:none;
+    }
+
+    .div1{
+float: left;
+height: 41px;
+background: gray;
+width: 144px;
+position:relative;
+color: white;
+margin-left:30%; 
+}
+.div2{
+text-align:center;
+padding-top:12px;
+font-size:15px;
+font-weight:800
+}
+.inputstyle{
+    width: 144px;
+    height: 41px;
+    cursor: pointer;
+    font-size: 30px;
+    outline: medium none;
+    position: absolute;
+    filter:alpha(opacity=0);
+    -moz-opacity:0;
+    opacity:0; 
+    left:0px;
+    top: 0px;
+    color: white;
+}
+    .main{
+        width:300px;
+        height:60px;
+        position:absolute;
+        left:50%;
+        top:50%;
+        margin-left:-150px;
+        margin-top:-30px;
+    }
+    .box{
+        position:relative;
+        float:left;
+    }
+    input.uploadFile{
+        position:absolute;
+        right:0px;
+        top:0px;
+        opacity:0;
+        filter:alpha(opacity=0);
+        cursor:pointer;
+        width:276px;
+        height:36px;
+        overflow: hidden;
+    }
+    input.textbox{
+        float:left;
+        padding:5px;
+        color:#999;
+        height:24px;
+        line-height:24px;
+        border:1px #ccc solid;
+        width:200px;
+        margin-right:4px;
+    }
+    a.link{
+        float:left;
+        display:inline-block;
+        padding:4px 16px;
+        color:#fff;
+        font:14px "Microsoft YaHei", Verdana, Geneva, sans-serif;
+        cursor:pointer;
+        background-color:#0099ff;
+        line-height:28px;
+        text-decoration:none;
+    }
